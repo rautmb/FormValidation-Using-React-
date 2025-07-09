@@ -34,7 +34,7 @@ const Formvalidation = () => {
         }
 
         if (inputdata.mobileno.trim() === '') {
-            newerror.mobileno = "Mobile No is required";
+            newerror.mobileno = "Mobile no is required";
         }
         else if (inputdata.mobileno.length != 10) {
             newerror.mobileno = "Please enter valid mobile no";
@@ -66,7 +66,7 @@ const Formvalidation = () => {
     return (
         <>
             <div style={{ margin: '40px' }}>
-                <h2>From Validation</h2>
+                <h2>Form Validation</h2>
                 <br />
                 <form onSubmit={Submitdata}>
                     <div>
